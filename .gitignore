@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual env
+.venv/
+
+# Local auth/token caches
+.token_cache.json
+.token_cache_*.json
+
+# Export output (can be very large / sensitive)
+export/
+
+# macOS
+.DS_Store
